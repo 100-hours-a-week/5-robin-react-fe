@@ -1,0 +1,21 @@
+ 
+ .send-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .send-btn button {
+    display: flex;
+    justify-content: center;
+    width:25%;
+    background-color: #aca0eb;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+  }
+  .send-btn p {
+    color: white;
+    transform: rotate(0.03deg);
+  }

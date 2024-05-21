@@ -1,0 +1,55 @@
+.post-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 10px;
+}
+.post-field {
+    width: 40%;
+    height: 150px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 0;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.post-field .list-subject {
+    display: flex;
+    justify-content: start;
+    margin: 0;
+}
+.post-field .post-state {
+    display: flex;
+    justify-content: space-between;
+}
+.post-field .post-state .p-left{
+    text-align: left;
+}
+.post-field .post-state .p-right{
+    text-align: right;
+}
+.post-line {
+    border: 0;
+    height: 2px;
+    background-color: #ccc;
+    margin: 5px 0;     /* 상하 여백 지정 */
+    width: 100%;        /* 선의 너비 지정 */
+}
+.post-field .reg-user {
+    display: flex;
+    align-items: center;
+}
+
+.post-field .reg-user img {
+    width: 32px;
+    height: 32px;
+}
+
+.post-field .reg-user p {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 800;
+}
